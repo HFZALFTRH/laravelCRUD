@@ -3,6 +3,7 @@
 use App\Http\Livewire\Pages\CategoriesComponent;
 use App\Http\Livewire\Pages\Categories\CreateComponent;
 use App\Http\Livewire\Pages\BooksComponent;
+use App\Http\Livewire\Pages\Categories\UpdateComponent;
 use App\Http\Livewire\Pages\HomeComponent;
 use Illuminate\Support\Facades\Route;
 
