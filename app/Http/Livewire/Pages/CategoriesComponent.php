@@ -8,6 +8,9 @@ class CategoriesComponent extends Component
 {
     public function render()
     {
-        return view('livewire.pages.categories-component')->layout("template.app");
+        $allCategories = Categories::query()->lates()->get();
+        return view('livewire.pages.categories-component', [
+            'allCategories' => $allCategories
+        ])->layout("template.app");
     }
 }

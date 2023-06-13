@@ -17,7 +17,9 @@ class CreateComponent extends Component
     Categories::create([
             'name' => $this->name
         ]);
-        return redirect(route("categories"));
+        session()->flash('message', 'category successfully created!');
+        return redirect(back());
+
     }
     public function render()
     {
