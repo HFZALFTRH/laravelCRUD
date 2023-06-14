@@ -24,3 +24,4 @@ route::get("/categories", CategoriesComponent::class)->name("categories");
 route::get("/books", BooksComponent::class)->name("books");
 route::get("/categories/create", createComponent::class)->name("categories.create");
 route::get("/categories/{categoriesId}/update", UpdateComponent::class)->name("categories.update");
+route::delete("/categories/{categoriesId}/delete", CategoriesComponent::class)->name("categories.destroy");

@@ -9,7 +9,7 @@
     </div>
     <div class="card">
         <div class="card-body">
-            <form wire:submit="create" autocomplete="off">
+            <form wire:submit="update" autocomplete="off">
                 <div class="mb-3">
                     <label class="from-label">name categories</label>
                         <input type="text" wire:model="name" class="from-control" name="example-text-input">

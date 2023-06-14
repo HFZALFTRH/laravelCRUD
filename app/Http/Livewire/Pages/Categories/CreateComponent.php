@@ -3,6 +3,7 @@
 namespace App\Http\Livewire\Pages\Categories;
 
 use Livewire\Component;
+use App\Models\categories;
 
 class CreateComponent extends Component
 {
@@ -14,7 +15,7 @@ class CreateComponent extends Component
     {
         $this->validate();
 
-    Categories::create([
+    categories::create([
             'name' => $this->name
         ]);
         session()->flash('message', 'category successfully created!');
