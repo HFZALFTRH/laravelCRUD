@@ -127,4 +127,3 @@
     </div>
 </div>
 
-                cuma gabut doank pak males projek. saya gak ngerti ngertiterkadang saya sudah nyimak semaksimal mungkin tetapi gak ngerti sama sekali kalo disuuh projek ahhhhhhhhhhhhhhhhhhhhhhhh semoga tinggat pemahaman kita meningkat lah amiiiiiiiiiin      </div> -->
